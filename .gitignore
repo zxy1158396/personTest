@@ -4,3 +4,13 @@ dist/
 *.log
 .env
 .env.local
+
+# 部署相关
+dist.tar.gz
+dist.zip
+
+# SSL证书（包含敏感信息）
+ssl/
+*.key
+*.crt
+*.pem
